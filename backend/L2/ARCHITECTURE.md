@@ -31,7 +31,6 @@ This document describes the architecture of a serverless pipeline for processing
 
 #### Consumer Lambda
 - Triggered by SQS messages
-- Processes messages in batches
 - Writes to DynamoDB with TTL
 - Handles retries and DLQ
 - Memory: 256MB
